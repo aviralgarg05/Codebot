@@ -1,0 +1,9 @@
+{
+  "pull_request": {
+    "opened": "pull_request.opened",
+    "closed": "pull_request.closed"
+  },
+  "app_installation": {
+    "created": "installation.created"
+  }
+}

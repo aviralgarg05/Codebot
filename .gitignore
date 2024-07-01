@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+*.pem
+!mock-cert.pem
+.env
+.env.prod
+coverage
+lib
+
+# Local Netlify folder
+.netlify

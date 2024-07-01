@@ -1,0 +1,41 @@
+{
+  "endpoints": {
+    "app_details": "/app",
+    "all_installations_list": "/app/installations",
+    "all_issues": "GET /repos/{owner}/{repo}/issues",
+    "get_issue": "GET /repos/{owner}/{repo}/issues/{issue_number}",
+    "all_commits": "GET /repos/{owner}/{repo}/commits",
+    "all_affected_files_in_pr": "GET /repos/{owner}/{repo}/pulls/{pull_number}/files",
+    "all_files": "GET /repos/{owner}/{repo}/git/trees/{tree_sha}",
+    "rate_limit": "GET /rate_limit"
+  },
+  "all_issues": {
+    "endpoint": "GET /repos/{owner}/{repo}/issues",
+    "label_bug": "bug",
+    "state_closed": "closed",
+    "per_page": 50,
+    "page": 1
+  },
+  "all_files": {
+    "endpoint_git_tree": "GET /repos/{owner}/{repo}/git/trees/{tree_sha}",
+    "endpoint_pull_request": "GET /repos/{owner}/{repo}/pulls/{pull_number}/files",
+    "default_branch": "main",
+    "file_array_limit": 5000
+  },
+  "all_commits": {
+    "endpoint": "GET /repos/{owner}/{repo}/commits",
+    "default_branch": "main",
+    "commit_age_in_months": 6,
+    "page_size": 50,
+    "commit_array_limit": 5000
+  },
+  "all_branches": {
+    "endpoint": "GET /repos/{owner}/{repo}/branches"
+  },
+  "repository": {
+    "endpoint": "GET /repos/{owner}/{repo}"
+  },
+  "batch_size": {
+    "repository_processing_batch_size": 10
+  }
+}
