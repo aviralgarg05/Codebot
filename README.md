@@ -68,6 +68,23 @@ Codebot integrates with MindsDB to enhance its predictive capabilities. MindsDB 
     ```
 3. Connect Codebot to MindsDB by configuring the connection settings in the `config.json` file.
 
+## Probot Integration
+
+Probot is a framework for building GitHub Apps to automate and improve your workflow. Codebot integrates with Probot to offer enhanced project management capabilities directly within GitHub repositories.
+
+### Setting Up Probot
+
+1. Install Probot:
+    ```sh
+    npm install -g probot
+    ```
+2. Create a new Probot app:
+    ```sh
+    probot create my-first-app
+    ```
+3. Configure your Probot app with the necessary permissions and webhooks to interact with your GitHub repository.
+
+   
 ### Example Use Cases
 
 - **Code Review Predictions**: Predict potential issues in code reviews based on historical data.
