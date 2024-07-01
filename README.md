@@ -18,7 +18,7 @@ Codebot's architecture is designed to be modular and scalable:
 
 1. **Frontend**: Built with React.js, providing an intuitive user interface for interacting with the chatbot.
 2. **Backend**: Developed using Node.js and Express.js, handling API requests and integrating with various services.
-3. **Database**: Utilizes MongoDB for storing user interactions, project data, and bot configurations.
+3. **Database**: Utilizes MongoDB and MindsDB for storing user interactions, project data, and bot configurations.
 4. **NLP Engine**: Powered by NLP libraries such as SpaCy or NLTK to process and understand natural language queries.
 5. **Machine Learning**: MindsDB integration for predictive analytics and continuous learning capabilities.
 
