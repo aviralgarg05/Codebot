@@ -97,6 +97,13 @@ Probot is a framework for building GitHub Apps to automate and improve your work
 
 Click the image above to watch the video.
 
+## Working
+<img src = "https://github.com/aviralgarg05/Codebot/blob/main/codebot-pr-open.png"/>
+Open PR
+
+<img src = "https://github.com/aviralgarg05/Codebot/blob/main/codebot-pr-closed.png" />
+Closed PR
+
 ## Contributing
 
 We welcome contributions to Codebot! To contribute:
