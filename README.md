@@ -91,6 +91,12 @@ Probot is a framework for building GitHub Apps to automate and improve your work
 - **Task Completion Estimates**: Provide estimates for task completion times based on previous projects.
 - **Performance Insights**: Analyze performance metrics to suggest optimizations.
 
+# Instructions to Download
+
+[![Instructions to Download](https://img.youtube.com/vi/K6WgNA2y9CQ/0.jpg)](https://youtu.be/K6WgNA2y9CQ)
+
+Click the image above to watch the video.
+
 ## Contributing
 
 We welcome contributions to Codebot! To contribute:
